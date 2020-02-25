@@ -199,8 +199,8 @@ public class Graph {
 					nextNode = n;
 				}
 			}
-		}
 
+		}
 		return dijkstras(nextNode, end);
 	}
 

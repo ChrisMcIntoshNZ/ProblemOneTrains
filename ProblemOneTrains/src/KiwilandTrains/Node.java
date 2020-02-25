@@ -8,6 +8,7 @@ public class Node {
 	private int dijkstraWeight = Integer.MAX_VALUE;
 	public boolean visited;
 
+
 	public Node(String name, ArrayList<Edge> edges) {
 		this.name = name;
 		this.edges = edges;
